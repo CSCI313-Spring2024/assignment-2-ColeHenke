@@ -1,0 +1,67 @@
+.main-content-div {
+  margin-top: 30px;
+  background-color: gray;
+  padding: 30px 30px 50px 30px;
+}
+
+#favorites {
+  margin-top: 40px;
+  background-color: aliceblue;
+}
+
+/*fonts*/
+.silly-font-1 {
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "BLED" 0, "SCAN" -43;
+  color: black;
+}
+
+.silly-font-2 {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 0, "SHLN" 47.9;
+}
+
+li {
+  a:link {
+    color: red;
+  }
+  a:visited {
+    color: red;
+  }
+  a:hover {
+    color: green;
+  }
+  a:active {
+    color: blue;
+  }
+}
+
+table.in-person p {
+  text-align: center;
+}
+
+.center-element {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  background-image: url("../images/background.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  padding-top: 56px;
+}
+
+.anchor {
+  scroll-margin-top: 70px;
+}

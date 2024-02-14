@@ -4,19 +4,289 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Cole's Webpage</title>
+    <!--Styles-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--Fonts-->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Sixtyfour:SCAN@-43&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Honk:MORF,SHLN@0,47.9&family=Sixtyfour:SCAN@-43&display=swap");
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-color-primary fixed-top" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#top"
+          ><img
+            src="images/spongebob.jpeg"
+            alt="Picture of Spongebob"
+            width="50"
+            height="me-auto"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#schedule">Schedule</a>
+            <a class="nav-link" href="#fav-books">Books</a>
+            <a class="nav-link" href="#hobbies">Hobbies</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container main-content-div anchor" id="top">
+      <div class="row">
+        <div class="col-sm position-relative" id="col-1">
+          <img
+            src="images/profile-photo.jpeg"
+            alt="Picture of Cole (totally real)"
+          />
+          <div class="container">
+            <h2>Cole Henke</h2>
+            <h6>Major: Computer Science</h6>
+          </div>
+          <div id="favorites" class="border border-3 border-primary-subtle rounded bg-">
+            <h5 class="silly-font-1">Some of my favorite websites</h5>
+            <ul>
+              <li><a href="https://www.youtube.com/">Youtube</a></li>
+              <li>
+                <a href="https://www.coolmathgames.com/">Cool Math Games</a>
+              </li>
+              <li>
+                <a href="https://terraria.fandom.com/wiki/Terraria_Wiki"
+                  >Terraria Wiki</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <h1>Bio</h1>
+          <p>
+            Hello! My name (as you can see on the left side of the page, is Cole
+            Henke), and I am (as you can also see on the left side of the page)
+            a computer science major. Currently I am a junior at NDSU. I didn't
+            start here though. During my first year of college, I attended
+            Bismarck State College where I got my associate's degree in computer
+            science. In my freshman year of highschool, I took a elective class
+            that was an introductory programming course that focused on using
+            block code in a program called "MIT App Inventor". I took the class
+            mostly because, as a freshman, we didn't have many options for our
+            elective classes, and I had no interst in taking an art class. To
+            this day, it is the most fun I've ever had in a class, and it
+            ignited a passion for solving problems using computers.
+          </p>
+          <p>
+            After my time at NDSU, I think I would like to end up working in a
+            career related to machine learning or data science, but I'm not too
+            set on that just yet. Through my past internship experience, I've
+            learnded I also really like front-end web development. There is on
+            thing I'm sure of though. After this semester, I vow to never even
+            look at assembly code again. Thankfully, the chance I have to deal
+            with it is very low, but I will avoid it like the plague.
+          </p>
+          <h4 class="silly-font-2">
+            This is unrelated to my biography, but this is a really cool font I
+            found.
+          </h4>
+        </div>
+      </div>
+      <div>
+        <h1 class="anchor" style="margin-top: 40px;" id="schedule">Current Course Schedule</h1>
+        <table class="table table-striped-columns table-primary in-person">
+          <thead>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>9:00AM</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>10:00AM</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>11:00AM</td>
+              <td>
+                <p>CSCI 313<br />10:00 - 10:50AM</p>
+              </td>
+              <td></td>
+              <td>
+                <p>CSCI 313<br />10:00 - 10:50AM</p>
+              </td>
+              <td></td>
+              <td>
+                <p>CSCI 313<br />10:00 - 10:50AM</p>
+              </td>
+            </tr>
+            <tr>
+              <td>12:00PM</td>
+              <td></td>
+              <td>
+                <p>STAT 330<br />12:30 - 1:20PM</p>
+              </td>
+              <td></td>
+              <td>
+                <p>STAT 330<br />12:30 - 1:20PM</p>
+              </td>
+              <td>
+                <p>STAT 330<br />12:00 - 12:50PM</p>
+              </td>
+            </tr>
+            <tr>
+              <td>1:00PM</td>
+              <td>
+                <p>
+                  CSCI 374 <br />
+                  1:00 - 1:50PM
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>
+                  CSCI 374 <br />
+                  1:00 - 1:50PM
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>
+                  CSCI 374 <br />
+                  1:00 - 1:50PM
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>2:00PM</td>
+              <td></td>
+              <td>
+                <p>
+                  STAT 368 <br />
+                  2:00 - 3:15PM
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>
+                  STAT 368 <br />
+                  2:00 - 3:15PM
+                </p>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>3:00PM</td>
+              <td></td>
+              <td>
+                <p>
+                  CSCI 467 <br />
+                  3:30 - 4:45PM
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>
+                  CSCI 467 <br />
+                  3:30 - 4:45PM
+                </p>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>4:00PM</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>5:00PM</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="table table-striped table-primary">
+          <thead>
+            <th>Online Classes</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td><p>CSCI 426 - Asynchronous</p></td>
+            </tr>
+            <tr>
+              <td><p>CSCI 450 - Asynchronous</p></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card-group">
+        <div class="card border-primary-subtle border-5 rounded" style="margin-right: 20px;" id="fav-books">
+          <img src="images/calvin-and-hobbes.jpeg" class="card-img-top" alt="Calvin and Hobbes" />
+          <div class="card-body">
+            <h5 class="card-title">Favorite Book Series</h5>
+            <p class="card-text">
+              <ul>
+                <li>Dune Series</li>
+                <li>Calvin and Hobbes</li>
+                <li>Garfield</li>
+                <li>Heroes of Olympus</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div class="card border-primary-subtle border-5 rounded" style="margin-left: 20px;" id="hobbies">
+          <img src="images/books.jpeg" class="card-img-top" alt="Picture of books" />
+          <div class="card-body">
+            <h5 class="card-title">Hobbies</h5>
+            <p class="card-text">
+              <ol>
+                <li>Bodybuilding</li>
+                <li>Reading</li>
+                <li>Hanging out with friends</li>
+                <li>Being a couch potato</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
